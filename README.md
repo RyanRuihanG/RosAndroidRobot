@@ -1,17 +1,17 @@
 # RosAndroid Robot (CSPM)
-This is a ROS package for cspm project.
+This is a ROS package for cspm project. 
 ##Introduction
 CSPM means computer, smart phone and microcontrollers. We developed a simple robot, and put the smart phone on it.Then we read the data from the smart phone, just like ths imu data, camera, gps and geomagnitic.
 
 We use ROS to manage these messages. And this repository is the ROS package we created. At the same time, we developed several android app to controll the robot, and the apk file will be uploaded recently.
 
-##Prototype
+## Prototype
 <div align=center>
 <img src='images/rosrobot.png' width='800'>
 </div>
 
-##Tutorials
-###Install
+## Tutorials
+### Install
 Download this package, cd to cspm folder, then type
 
 ```
@@ -21,7 +21,7 @@ source devel/setup.bash
 
 Download CSPMRobot.apk,CSPMRemoter.apk and joystick.apk and install them in your smart phone.
 
-###Quick to start
+### Quick to start
 Open CSPMRobot, then put your mobile phone in your robot. type
 ```
 rosrun face_detect facedetect _param:=/camera/image
