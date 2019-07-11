@@ -7,7 +7,7 @@ We use ROS to manage these messages. And this repository is the ROS package we c
 
 ##Prototype
 <div align=center>
-<img src='Images/rosrobot.png' width='800'>
+<img src='images/rosrobot.png' width='800'>
 </div>
 
 ##Tutorials
