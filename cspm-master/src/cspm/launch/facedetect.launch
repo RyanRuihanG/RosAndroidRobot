@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find cspm)/launch/base.launch" />
+	<node pkg="face_detect" name="facedectect" type="facedetect" />
+</launch>

@@ -1,0 +1,17 @@
+(cl:defpackage ptam_com-msg
+  (:use )
+  (:export
+   "<VECTOR3ARRAY>"
+   "VECTOR3ARRAY"
+   "<OCTOMAPPOINTSTAMPED>"
+   "OCTOMAPPOINTSTAMPED"
+   "<OCTOMAPPOINTARRAY>"
+   "OCTOMAPPOINTARRAY"
+   "<PTAM_INFO>"
+   "PTAM_INFO"
+   "<KEYFRAME_MSG>"
+   "KEYFRAME_MSG"
+   "<OCTOMAPSCAN>"
+   "OCTOMAPSCAN"
+  ))
+

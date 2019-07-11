@@ -1,0 +1,8 @@
+prefix=/home/meng/cspm/devel
+
+Name: cspm
+Description: Description of cspm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/meng/cspm/devel/lib 
+Requires: 

@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Help</title>
+<script type="text/javascript" src="http://www.francescomalagrino.com/BootstrapPageGenerator/3/js/jquery-2.0.0.min.js"></script>
+<script type="text/javascript" src="http://www.francescomalagrino.com/BootstrapPageGenerator/3/js/jquery-ui"></script>
+<link href="http://www.francescomalagrino.com/BootstrapPageGenerator/3/css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="http://www.francescomalagrino.com/BootstrapPageGenerator/3/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+</head>
+<body style ="padding-top:50px">
+
+<div class="container">
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+
+<a class="brand" href = "./master.html">  &nbsp;&nbsp;CSPM HELP</a>
+
+
+<ul class="nav">
+<li ><a href = "./master.html">
+					Master</a>
+				</li>
+<li class='active'><a href = "./help.html">
+					Help</a>
+				</li>
+				
+</ul>
+
+                
+</div><!--/.nav-collapse -->
+
+</div>
+</div>
+
+
+
+
+            
+			
+			
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div  class="span12">
+			<div class="row-fluid">
+				<div style="background-color:skyblue;" class="span12">
+					<h3>
+						<font color="white"><center><strong><strong>Welcome to the CSPM Robot System</strong></strong></center></font>
+				
+						
+						
+					</h3>
+				</div>
+			
+				</div>
+			<div class="row-fluid">
+		
+				<div class="span12">
+					<p>
+						<font style="font-size:16px;">
+<div class = "span10 offset1">
+
+<p>
+您好，这里是本软件一个简单的使用教程。
+在命令行输入
+<br><code>
+roslaunch cspm base.launch
+</code>
+<br>
+启动本机所需服务。
+
+此时若您的手机已连接，则可看到屏幕上显示出手机摄像头的画面。将光标定位在此窗口，按如下指令操作。<br>
+
+<table class="table">
+   <caption><font style="font-size:20px;">键盘指令</font></caption>
+   <thead>
+      <tr>
+         <th>键名</th>
+         <th>功能</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>UP DOWN LEFT RIGHT</td>
+         <td>控制机器人前进、后退、左转、右转</td>
+      </tr>
+      <tr>
+         <td>J K</td>
+         <td>控制机器人左右平动</td>
+      </tr>
+      <tr>
+         <td>P</td>
+         <td>停止小车</td>
+      </tr>
+      <tr>
+         <td>T</td>
+         <td>切换机器人前后置摄像头</td>
+      </tr>
+	<tr>
+         <td>L</td>
+         <td>打开地图查看机器人实时位置</td>
+      </tr>
+      <tr>
+         <td>Q A  W S  E D  R F</td>
+         <td>分别控制机械臂的四个电机</td>
+      </tr>
+      <tr>
+         <td>SPACEBAR</td>
+         <td>开启人脸追踪PID调节器</td>
+      </tr>
+
+   </tbody>
+</table>
+
+<br>
+<strong>PTAM</strong>
+<br>
+<code>
+roslaunch cspm ptam.launch
+</code>
+<br>
+执行PTAM_SLAM视觉定位系统。
+<br>
+<strong>人脸识别</strong>
+<br>
+<code>
+roslaunch cspm face_detect.launch
+</code>
+<br>
+执行人脸识别功能。
+<br>
+
+此外，如果您有另一台安卓手机，您可以安装我们的另一台手机端应用。除了基本的手柄控制功能，您还可以通过语音直接控制我们的机器人。
+<br>
+直接对我们的手机应用说出“前进”，“后退”，“左转”，“右转”
+<br>
+您甚至可以直接对它说“请找某某某拿某某某东西过来”。当然，您需要在我们的程序中添加该人与该物品的特征信息（臂如衣服颜色）
+</p>
+
+</font>
+							
+					</p>
+						<hr width="100%">
+						
+
+				</div>
+                
+
+
+
+			</div>
+           
+
+		</div>
+	</div>
+</div>
+
+
+
+    <footer>
+			<div class="container-fluid">
+			<div class="span12" >
+					<div class="span4 offset2">
+					
+            © Copyright 2016,CSPM Group.
+    
+						
+					</div>
+				</div>
+			</div>
+   </footer>
+
+
+</body>
+</html>

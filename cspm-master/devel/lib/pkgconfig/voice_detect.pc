@@ -1,0 +1,8 @@
+prefix=/home/meng/cspm/devel
+
+Name: voice_detect
+Description: Description of voice_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/meng/cspm/devel/lib 
+Requires: 

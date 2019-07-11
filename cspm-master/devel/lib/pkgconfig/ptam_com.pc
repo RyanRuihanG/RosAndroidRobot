@@ -1,0 +1,8 @@
+prefix=/home/meng/cspm/devel
+
+Name: ptam_com
+Description: Description of ptam_com
+Version: 0.0.1
+Cflags: -I/home/meng/cspm/devel/include
+Libs: -L/home/meng/cspm/devel/lib 
+Requires: message_runtime std_msgs geometry_msgs sensor_msgs

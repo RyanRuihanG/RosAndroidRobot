@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "face_detect")
+set(face_detect_MAINTAINER "meng <meng@todo.todo>")
+set(face_detect_DEPRECATED "")
+set(face_detect_VERSION "0.0.0")
+set(face_detect_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(face_detect_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(face_detect_BUILDTOOL_DEPENDS "catkin")

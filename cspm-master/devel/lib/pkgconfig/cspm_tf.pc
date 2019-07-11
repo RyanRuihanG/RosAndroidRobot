@@ -1,0 +1,8 @@
+prefix=/home/meng/cspm/devel
+
+Name: cspm_tf
+Description: Description of cspm_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/meng/cspm/devel/lib 
+Requires: 

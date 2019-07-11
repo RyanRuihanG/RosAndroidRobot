@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: cspm
+Description: Description of cspm
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

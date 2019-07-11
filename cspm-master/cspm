@@ -1,0 +1,3 @@
+#!/bin/bash
+sh ~/cspm/cspmhelp.sh &
+roslaunch cspm facedetect.launch

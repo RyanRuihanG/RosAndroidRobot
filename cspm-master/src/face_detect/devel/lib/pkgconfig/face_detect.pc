@@ -1,0 +1,8 @@
+prefix=/home/meng/cspm/src/face_detect/devel
+
+Name: face_detect
+Description: Description of face_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/meng/cspm/src/face_detect/devel/lib 
+Requires: 

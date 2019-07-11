@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find cspm)/launch/base.launch" />
+	<include file="$(find ptam)/launch/ptam.launch" />
+        <include file="$(find cspm_tf)/launch/start_demo.launch" />
+	<node pkg="rviz" name="rviz" type="rviz" args="-d $(find cspm_tf)/rviz.rviz"/>
+</launch>

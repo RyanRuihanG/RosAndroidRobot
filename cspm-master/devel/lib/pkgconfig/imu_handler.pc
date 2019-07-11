@@ -1,0 +1,8 @@
+prefix=/home/meng/cspm/devel
+
+Name: imu_handler
+Description: Description of imu_handler
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/meng/cspm/devel/lib 
+Requires: 

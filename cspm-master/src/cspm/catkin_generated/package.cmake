@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cspm")
+set(cspm_MAINTAINER "meng <meng@todo.todo>")
+set(cspm_DEPRECATED "")
+set(cspm_VERSION "0.0.0")
+set(cspm_BUILD_DEPENDS )
+set(cspm_RUN_DEPENDS )
+set(cspm_BUILDTOOL_DEPENDS "catkin")

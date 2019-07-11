@@ -1,0 +1,8 @@
+prefix=/home/meng/cspm/devel
+
+Name: ptam
+Description: Description of ptam
+Version: 0.0.1
+Cflags: -I/home/meng/cspm/devel/include
+Libs: -L/home/meng/cspm/devel/lib 
+Requires: roscpp dynamic_reconfigure std_msgs image_transport dynamic_reconfigure sensor_msgs ptam_com tf visualization_msgs cv_bridge

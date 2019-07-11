@@ -1,0 +1,18 @@
+<launch>
+
+    <node pkg="image_view" name="image_view" type="image_view" args="image:=/camera/image _image_transport:=compressed"/>
+    <node pkg="topic_tools" name="relay" type="relay" args="/virtual_joystick/cmd_vel /cmd_vel"/>
+    <node pkg="image_transport" name="republish" type="republish" args="compressed in:=/camera/image raw out:=/camera/image"/>
+    <node pkg="voice_detect" name="cspm_voice" type="voice_py.py"/>
+    <node pkg="voice_detect" name="simplecmd" type="simplecmd.py"/>
+    <node pkg="face_detect" name="color_tracker" type="camera.py"/>
+    <node pkg="face_detect" name="facedetect" type="facedetect"/>
+
+
+
+
+
+
+
+</launch>
+
