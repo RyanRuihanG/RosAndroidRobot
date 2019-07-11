@@ -5,6 +5,8 @@ CSPM means computer, smart phone and microcontrollers. We developed a simple rob
 
 We use ROS to manage these messages. And this repository is the ROS package we created. At the same time, we developed several android app to controll the robot, and the apk file will be uploaded recently.
 
+Co-developer: [Dechao Meng](https://github.com/silverbulletmdc)
+
 ## Prototype
 <div align=center>
 <img src='images/rosrobot.png' width='800'>
